@@ -1,10 +1,13 @@
 const assert = require('assert');
 
+//let {min, max, avg} =  import('./src/index.js');
 const {
   min,
   max,
   avg,
-} = require('./src')
+} = require('./src/index.js')
+
+//import {min, max, avg} from './src/index.js';
 
 describe('.min, should find min value in given array', () => {
  it('Should return 0 if no params passed, or array is empty', () => {
